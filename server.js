@@ -56,6 +56,6 @@ app.delete('/api/users/:userId', function(req, res, next) {
 
 
 
-app.listen(7777, console.log("Now listening on port 7777"));
+app.listen(4242, console.log("Now listening on port 7777"));
 
 module.exports = app;
